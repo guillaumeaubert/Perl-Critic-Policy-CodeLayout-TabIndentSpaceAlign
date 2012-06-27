@@ -1,0 +1,57 @@
+{
+   "abstract" : "Use tabs for indenting, spaces for aligning.",
+   "author" : [
+      "Guillaume Aubert <aubertg@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4, CPAN::Meta::Converter version 2.120530",
+   "license" : [
+      "artistic_1"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Carp" : "0",
+            "Perl::Critic::Policy" : "0",
+            "Perl::Critic::Utils" : "0",
+            "Readonly" : "0",
+            "Try::Tiny" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "perl" : "5.006"
+         }
+      }
+   },
+   "provides" : {
+      "Perl::Critic::Policy::CodeLayout::TabIndentSpaceAlign" : {
+         "file" : "lib/Perl/Critic/Policy/CodeLayout/TabIndentSpaceAlign.pm",
+         "version" : "v1.0.0"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://rt.cpan.org/NoAuth/ReportBug.html?Queue=perl-critic-policy-codelayout-tabindentspacealign"
+      },
+      "homepage" : "https://metacpan.org/release/Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign",
+      "license" : [
+         "http://opensource.org/licenses/artistic-license.php"
+      ],
+      "repository" : {
+         "url" : "https://sourceforge.net/p/pcritictabspace/code"
+      }
+   },
+   "version" : "v1.0.0"
+}
