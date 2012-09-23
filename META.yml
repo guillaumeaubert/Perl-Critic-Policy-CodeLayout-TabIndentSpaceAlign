@@ -31,5 +31,5 @@ resources:
   bugtracker: http://rt.cpan.org/NoAuth/ReportBug.html?Queue=perl-critic-policy-codelayout-tabindentspacealign
   homepage: https://metacpan.org/release/Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign
   license: http://www.perlfoundation.org/artistic_license_1_0
-  repository: https://sourceforge.net/p/pcritictabspace/code
+  repository: https://github.com/guillaumeaubert/Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign
 version: v1.0.0

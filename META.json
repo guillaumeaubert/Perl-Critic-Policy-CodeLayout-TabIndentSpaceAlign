@@ -54,7 +54,7 @@
          "http://www.perlfoundation.org/artistic_license_1_0"
       ],
       "repository" : {
-         "url" : "https://sourceforge.net/p/pcritictabspace/code"
+         "url" : "https://github.com/guillaumeaubert/Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign"
       }
    },
    "version" : "v1.0.0"
