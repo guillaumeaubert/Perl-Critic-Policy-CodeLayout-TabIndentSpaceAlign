@@ -10,15 +10,19 @@ my $builder = Module::Build->new(
 	dist_version_from    => 'lib/Perl/Critic/Policy/CodeLayout/TabIndentSpaceAlign.pm',
 	build_requires       =>
 	{
+		'English'                    => 0,
+		'File::Spec'                 => 0,
+		'Test::More'                 => 0,
+		'Test::Perl::Critic::Policy' => 0,
+	},
+	requires             =>
+	{
+		'perl'                 => 5.006,
 		'Carp'                 => 0,
 		'Perl::Critic::Policy' => 0,
 		'Perl::Critic::Utils'  => 0,
 		'Readonly'             => 0,
 		'Try::Tiny'            => 0,
-	},
-	requires             =>
-	{
-		'perl'                 => 5.006,
 	},
 	add_to_cleanup       =>
 	[

@@ -7,9 +7,13 @@ WriteMakefile
   'VERSION_FROM' => 'lib/Perl/Critic/Policy/CodeLayout/TabIndentSpaceAlign.pm',
   'PREREQ_PM' => {
                    'Carp' => 0,
+                   'English' => 0,
+                   'File::Spec' => 0,
                    'Perl::Critic::Policy' => 0,
                    'Perl::Critic::Utils' => 0,
                    'Readonly' => 0,
+                   'Test::More' => 0,
+                   'Test::Perl::Critic::Policy' => 0,
                    'Try::Tiny' => 0
                  },
   'INSTALLDIRS' => 'site',
