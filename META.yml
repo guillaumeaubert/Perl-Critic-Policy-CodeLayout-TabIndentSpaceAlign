@@ -3,7 +3,6 @@ abstract: 'Use tabs for indenting, spaces for aligning.'
 author:
   - 'Guillaume Aubert <aubertg@cpan.org>'
 build_requires:
-  English: 0
   File::Spec: 0
   Test::FailWarnings: 0
   Test::More: 0

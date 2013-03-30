@@ -41,7 +41,6 @@ my $builder = $class->new(
 	dist_version_from    => 'lib/Perl/Critic/Policy/CodeLayout/TabIndentSpaceAlign.pm',
 	build_requires       =>
 	{
-		'English'                    => 0,
 		'File::Spec'                 => 0,
 		'Test::FailWarnings'         => 0,
 		'Test::More'                 => 0,
