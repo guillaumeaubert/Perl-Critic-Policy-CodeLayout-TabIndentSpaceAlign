@@ -1,6 +1,8 @@
 #!perl -T
 
+use Test::FailWarnings;
 use Test::More tests => 1;
+
 
 BEGIN
 {

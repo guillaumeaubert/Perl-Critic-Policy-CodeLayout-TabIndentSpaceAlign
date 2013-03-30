@@ -1,10 +1,9 @@
 #!perl -T
 
-use 5.006001;
- 
 use strict;
 use warnings;
 
+use Test::FailWarnings;
 use Test::Perl::Critic::Policy qw( all_policies_ok );
 
 

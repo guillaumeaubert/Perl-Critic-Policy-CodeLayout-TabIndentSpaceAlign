@@ -43,6 +43,7 @@ my $builder = $class->new(
 	{
 		'English'                    => 0,
 		'File::Spec'                 => 0,
+		'Test::FailWarnings'         => 0,
 		'Test::More'                 => 0,
 		'Test::Perl::Critic::Policy' => 0,
 	},
