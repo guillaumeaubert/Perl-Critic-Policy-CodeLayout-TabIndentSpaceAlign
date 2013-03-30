@@ -14,8 +14,11 @@ lib/Perl/Critic/Policy/CodeLayout/TabIndentSpaceAlign.pm
 t/00-load.t
 t/10-policy.t
 t/CodeLayout/TabIndentSpaceAlign.run
-t/manifest.t
-t/module_versions.t
-t/perlcritic.t
-t/pod-coverage.t
-t/pod.t
+xt/changes.t
+xt/kwalitee.t
+xt/manifest.t
+xt/module_versions.t
+xt/perlcritic.t
+xt/pod-coverage.t
+xt/pod.t
+xt/unix_eol.t
