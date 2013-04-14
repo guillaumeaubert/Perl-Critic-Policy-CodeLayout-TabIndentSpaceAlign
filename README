@@ -32,8 +32,8 @@ perldoc command.
 
 You can also look for information at:
 
-    RT, CPAN's request tracker (report bugs here)
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign
+    GitHub (report bugs here)
+        https://github.com/guillaumeaubert/Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign
 
     AnnoCPAN, Annotated CPAN documentation
         http://annocpan.org/dist/Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign

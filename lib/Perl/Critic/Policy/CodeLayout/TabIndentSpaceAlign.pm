@@ -239,8 +239,8 @@ Guillaume Aubert, C<< <aubertg at cpan.org> >>.
 
 =head1 BUGS
 
-Please report any bugs or feature requests to C<bug-perl-critic-policy-codelayout-tabindentspacealign at rt.cpan.org>,
-or through the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign>.
+Please report any bugs or feature requests through the web interface at
+L<https://github.com/guillaumeaubert/Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign/issues>.
 I will be notified, and then you'll automatically be notified of progress on
 your bug as I make changes.
 
@@ -256,9 +256,9 @@ You can also look for information at:
 
 =over 4
 
-=item * RT: CPAN's request tracker
+=item * GitHub (report bugs there)
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign>
+L<https://github.com/guillaumeaubert/Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign/issues>
 
 =item * AnnoCPAN: Annotated CPAN documentation
 
