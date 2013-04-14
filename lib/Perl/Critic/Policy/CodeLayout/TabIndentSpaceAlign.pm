@@ -268,9 +268,9 @@ L<http://annocpan.org/dist/Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign>
 
 L<http://cpanratings.perl.org/d/Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign>
 
-=item * Search CPAN
+=item * MetaCPAN
 
-L<http://search.cpan.org/dist/Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign/>
+L<https://metacpan.org/release/Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign>
 
 =back
 
