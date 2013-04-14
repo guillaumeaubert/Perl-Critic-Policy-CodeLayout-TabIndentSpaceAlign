@@ -1,5 +1,15 @@
 Revision history for Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign
 
+v1.0.3  2013-04-13
+        * Added Test::FailWarnings to all tests.
+        * Added new release tests.
+        * Moved release tests to xt/, updated Build.PL.
+        * Added info on how to contribute new examples.
+        * Moved request tracker from RT to GitHub.
+        * Changed links from Search CPAN to MetaCPAN.
+        * Cleaned up prerequisites.
+        * Added config file for Travis-CI continuous integration.
+
 v1.0.2  2012-10-03
         * Relicensed as GPLv3.
 
