@@ -2,6 +2,7 @@ Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign
 =================================================
 
 [![Build Status](https://travis-ci.org/guillaumeaubert/Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign.png?branch=master)](https://travis-ci.org/guillaumeaubert/Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign)
+[![Coverage Status](https://coveralls.io/repos/guillaumeaubert/Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign/badge.png?branch=master)](https://coveralls.io/r/guillaumeaubert/Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign?branch=master)
 
 Hard tabs are a perfectly fine way to indent code for accessibility and
 usability purposes, allowing different users to tweak indentation settings to
