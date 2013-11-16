@@ -137,10 +137,10 @@ Check an element for violations against this policy.
 sub violates
 {
 	my ( $self, $element, undef ) = @_;
-	
+
 	# The __DATA__ element is exempt.
 	return if $element->parent->isa('PPI::Statement::Data');
-	
+
 	my $violations =
 	try
 	{
@@ -152,7 +152,7 @@ sub violates
 			my $content = $element->content();
 			$content =~ s/^[\r\n]+//;
 			$content =~ s/[\r\n]+$//;
-			
+
 			if ( $element->column_number() == 1 )
 			{
 				croak 'In comments and indentation, tabs are only allowed at the beginning of the string. Spaces are allowed but only after a non-space character.'
@@ -173,11 +173,11 @@ sub violates
 			my $declaration = $element->content();
 			croak 'The HereDoc declaration should not have any tabs.'
 				if $declaration =~ /\t/;
-			
+
 			# The content of the HereDoc block should behave like a multiline string.
 			my @heredoc = $element->heredoc();
 			croak 'Tabs are not allowed after non-tab characters.' if _has_violations_in_multiline_string( join( "\n", @heredoc ) );
-			
+
 			my $terminator = $element->terminator();
 			croak 'The HereDoc terminator should not have any tabs.'
 				if $terminator =~ /\t/;
@@ -188,20 +188,20 @@ sub violates
 			my $content = $element->content();
 			croak 'Tabs are not allowed after non-tab characters.' if _has_violations_in_multiline_string( $content );
 		}
-		
+
 		return;
 	}
 	catch
 	{
 		return $_;
 	};
-	
+
 	return $self->violation(
 		$DESCRIPTION,
 		$EXPLANATION,
 		$element,
 	) if defined( $violations ) && ( $violations ne '' );
-	
+
 	return;
 }
 
@@ -218,16 +218,16 @@ policy.
 sub _has_violations_in_multiline_string
 {
 	my ( $string ) = @_;
-	
+
 	foreach my $line ( split( /\r?\n/, $string ) )
 	{
 		# Don't allow tabs after non-tab characters on the same line.
 		# However, a tab followed by a space is legit, unlike the rest of the code.
 		next if $line !~ /[^\t]\t/;
-		
+
 		return 1;
 	}
-	
+
 	return 0;
 }
 

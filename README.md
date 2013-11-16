@@ -27,7 +27,7 @@ To install this module, run the following commands:
 	./Build test
 	./Build install
 
-	
+
 SUPPORT AND DOCUMENTATION
 -------------------------
 
