@@ -1,5 +1,8 @@
 Revision history for Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign
 
+v1.0.5  2014-06-09
+        - Ignored warnings from dependencies in tests.
+
 v1.0.4  2014-04-20
         - Fixed "package version matches dist version" for CPANTS.
         - Fixed license declared in meta files.
