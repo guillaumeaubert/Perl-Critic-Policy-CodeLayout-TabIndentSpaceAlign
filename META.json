@@ -40,7 +40,7 @@
    "provides" : {
       "Perl::Critic::Policy::CodeLayout::TabIndentSpaceAlign" : {
          "file" : "lib/Perl/Critic/Policy/CodeLayout/TabIndentSpaceAlign.pm",
-         "version" : "v1.0.5"
+         "version" : "v1.1.0"
       }
    },
    "release_status" : "stable",
@@ -56,5 +56,5 @@
          "url" : "https://github.com/guillaumeaubert/Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign"
       }
    },
-   "version" : "v1.0.5"
+   "version" : "v1.1.0"
 }
